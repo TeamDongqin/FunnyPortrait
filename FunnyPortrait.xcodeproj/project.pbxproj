@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C57D34719905C6F00E1E49E /* YYAssetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */; };
+		9C57D34919905DA000E1E49E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34819905DA000E1E49E /* MainViewController.swift */; };
 		9C6AE636198CE575008CE37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AE635198CE575008CE37D /* AppDelegate.swift */; };
 		9C6AE638198CE575008CE37D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AE637198CE575008CE37D /* FirstViewController.swift */; };
 		9C6AE63A198CE575008CE37D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AE639198CE575008CE37D /* SecondViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYAssetHelper.swift; path = class/YYAssetHelper.swift; sourceTree = "<group>"; };
+		9C57D34819905DA000E1E49E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9C6AE630198CE574008CE37D /* FunnyPortrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyPortrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6AE634198CE575008CE37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C6AE635198CE575008CE37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				9C6AE63B198CE575008CE37D /* Main.storyboard */,
 				9C6AE63E198CE575008CE37D /* Images.xcassets */,
 				9C6AE633198CE574008CE37D /* Supporting Files */,
+				9C57D34819905DA000E1E49E /* MainViewController.swift */,
 			);
 			path = FunnyPortrait;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				9C9136DC198F0B39006C01FC /* view */,
 				9C9136DB198F0B33006C01FC /* model */,
 				9C9136E0198F0CE9006C01FC /* FunnyPortraitController.swift */,
+				9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */,
 			);
 			name = class;
 			sourceTree = "<group>";
@@ -310,6 +316,8 @@
 				9C9136E1198F0CE9006C01FC /* FunnyPortraitController.swift in Sources */,
 				9C6AE636198CE575008CE37D /* AppDelegate.swift in Sources */,
 				9C6AE638198CE575008CE37D /* FirstViewController.swift in Sources */,
+				9C57D34719905C6F00E1E49E /* YYAssetHelper.swift in Sources */,
+				9C57D34919905DA000E1E49E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
