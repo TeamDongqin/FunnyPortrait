@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C56466B1997835D00B428EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C56466A1997835D00B428EF /* UIKit.framework */; };
+		9C56466D1997836D00B428EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C56466C1997836D00B428EF /* CoreGraphics.framework */; };
+		9C56466F199784BD00B428EF /* CropTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C56466E199784BD00B428EF /* CropTest.swift */; };
 		9C57D34719905C6F00E1E49E /* YYAssetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */; };
 		9C57D34919905DA000E1E49E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34819905DA000E1E49E /* MainViewController.swift */; };
 		9C6AE636198CE575008CE37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AE635198CE575008CE37D /* AppDelegate.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C56466A1997835D00B428EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C56466C1997836D00B428EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C56466E199784BD00B428EF /* CropTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropTest.swift; sourceTree = "<group>"; };
 		9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYAssetHelper.swift; path = class/YYAssetHelper.swift; sourceTree = "<group>"; };
 		9C57D34819905DA000E1E49E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9C6AE630198CE574008CE37D /* FunnyPortrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyPortrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C56466D1997836D00B428EF /* CoreGraphics.framework in Frameworks */,
+				9C56466B1997835D00B428EF /* UIKit.framework in Frameworks */,
 				9C9136D9198F0AE2006C01FC /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +104,9 @@
 		9C6AE627198CE574008CE37D = {
 			isa = PBXGroup;
 			children = (
+				9C56466E199784BD00B428EF /* CropTest.swift */,
+				9C56466C1997836D00B428EF /* CoreGraphics.framework */,
+				9C56466A1997835D00B428EF /* UIKit.framework */,
 				9C9136D8198F0AE2006C01FC /* AssetsLibrary.framework */,
 				9C6AE632198CE574008CE37D /* FunnyPortrait */,
 				9C6AE647198CE575008CE37D /* FunnyPortraitTests */,
@@ -309,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C6AE63A198CE575008CE37D /* SecondViewController.swift in Sources */,
+				9C56466F199784BD00B428EF /* CropTest.swift in Sources */,
 				9C9136FF198F0F6A006C01FC /* YYImageCell.swift in Sources */,
 				9C9136FD198F0EED006C01FC /* YYImageDataSourceView.swift in Sources */,
 				9C9136F9198F0EC7006C01FC /* YYAlertView.swift in Sources */,

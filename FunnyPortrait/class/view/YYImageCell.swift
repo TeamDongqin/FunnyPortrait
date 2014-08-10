@@ -21,13 +21,13 @@ class YYImageCell : UICollectionViewCell {
         self.addSubview(self.imageView)
         
         self.selectView = UIView(frame:CGRectZero)
-        self.backgroundColor = UIColor(white:1 , alpha:0.5)
+        self.selectView.backgroundColor = UIColor(white:1 , alpha:0.5)
         self.addSubview(self.selectView)
         
         self.selectImageView = UIImageView(frame:CGRectZero)
         self.selectImageView.backgroundColor = mochaColorGreen
-        self.layer.borderColor = UIColor.whiteColor().CGColor
-        self.addSubview(self.selectImageView)
+        self.selectImageView.layer.borderColor = UIColor.whiteColor().CGColor
+        self.selectView.addSubview(self.selectImageView)
     }
     
     override func layoutSubviews() {

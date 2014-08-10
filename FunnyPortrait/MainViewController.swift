@@ -13,7 +13,7 @@ class MainViewController: UIViewController,YYImagePickerDelegate {
         super.viewDidLoad()
         var showBt = UIButton(frame:CGRectMake(0, 100, 320, 100))
         showBt.setTitleColor(mochaColorGreen, forState: UIControlState.Normal)
-        showBt.setTitle("show", forState: UIControlState.Normal)
+        showBt.setTitle("SHOW", forState: UIControlState.Normal)
         showBt.addTarget(self, action: "show", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(showBt)
     }
