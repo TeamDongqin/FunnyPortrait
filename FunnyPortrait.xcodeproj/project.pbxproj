@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9C56466B1997835D00B428EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C56466A1997835D00B428EF /* UIKit.framework */; };
 		9C56466D1997836D00B428EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C56466C1997836D00B428EF /* CoreGraphics.framework */; };
-		9C56466F199784BD00B428EF /* CropTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C56466E199784BD00B428EF /* CropTest.swift */; };
 		9C57D34719905C6F00E1E49E /* YYAssetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */; };
 		9C57D34919905DA000E1E49E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57D34819905DA000E1E49E /* MainViewController.swift */; };
 		9C6AE636198CE575008CE37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AE635198CE575008CE37D /* AppDelegate.swift */; };
@@ -34,6 +33,7 @@
 		9C9136F9198F0EC7006C01FC /* YYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9136F8198F0EC7006C01FC /* YYAlertView.swift */; };
 		9C9136FD198F0EED006C01FC /* YYImageDataSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9136FC198F0EED006C01FC /* YYImageDataSourceView.swift */; };
 		9C9136FF198F0F6A006C01FC /* YYImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9136FE198F0F6A006C01FC /* YYImageCell.swift */; };
+		9CBD1F541998442F00B8222B /* CropTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD1F531998442F00B8222B /* CropTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 /* Begin PBXFileReference section */
 		9C56466A1997835D00B428EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C56466C1997836D00B428EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9C56466E199784BD00B428EF /* CropTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropTest.swift; sourceTree = "<group>"; };
 		9C57D34619905C6F00E1E49E /* YYAssetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYAssetHelper.swift; path = class/YYAssetHelper.swift; sourceTree = "<group>"; };
 		9C57D34819905DA000E1E49E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9C6AE630198CE574008CE37D /* FunnyPortrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyPortrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +77,7 @@
 		9C9136F8198F0EC7006C01FC /* YYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYAlertView.swift; path = class/view/YYAlertView.swift; sourceTree = "<group>"; };
 		9C9136FC198F0EED006C01FC /* YYImageDataSourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYImageDataSourceView.swift; path = class/view/YYImageDataSourceView.swift; sourceTree = "<group>"; };
 		9C9136FE198F0F6A006C01FC /* YYImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYImageCell.swift; path = class/view/YYImageCell.swift; sourceTree = "<group>"; };
+		9CBD1F531998442F00B8222B /* CropTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CropTest.swift; path = CropImage/CropTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		9C6AE627198CE574008CE37D = {
 			isa = PBXGroup;
 			children = (
-				9C56466E199784BD00B428EF /* CropTest.swift */,
+				9CBD1F52199843C300B8222B /* CropImage */,
 				9C56466C1997836D00B428EF /* CoreGraphics.framework */,
 				9C56466A1997835D00B428EF /* UIKit.framework */,
 				9C9136D8198F0AE2006C01FC /* AssetsLibrary.framework */,
@@ -208,6 +208,14 @@
 				9C9136EB198F0D49006C01FC /* check@2x.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		9CBD1F52199843C300B8222B /* CropImage */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD1F531998442F00B8222B /* CropTest.swift */,
+			);
+			name = CropImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C6AE63A198CE575008CE37D /* SecondViewController.swift in Sources */,
-				9C56466F199784BD00B428EF /* CropTest.swift in Sources */,
+				9CBD1F541998442F00B8222B /* CropTest.swift in Sources */,
 				9C9136FF198F0F6A006C01FC /* YYImageCell.swift in Sources */,
 				9C9136FD198F0EED006C01FC /* YYImageDataSourceView.swift in Sources */,
 				9C9136F9198F0EC7006C01FC /* YYAlertView.swift in Sources */,
